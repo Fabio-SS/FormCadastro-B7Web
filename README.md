@@ -1,2 +1,2 @@
-# Cadastro - Formulário
-> Desenvolvimento de um Formulário de Cadastro do curso B7Web de Front-end
+# Cadastro de Usuários
+> Desenvolvimento de um Formulário de Cadastro para usuários do curso B7Web de Front-end
