@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../FormCadastro-B7Web/assets/css/template.css">
-    <title>In - Vagas</title>
+    <title>In - Pets</title>
 </head>
 <body>
     <form action="recebedados.php" method="POST">
-        <h1>In - Vagas</h1>
-        <h2>Cadastro</h2>
-        <fieldset><legend>Dados Pessoais</legend>
-        <label for="nomecomp">Nome completo:</label>
-        <input type="text" id="nomecomp" placeholder="Nome e sobrenome" autofocus required>
-        <label for="datanascimento">Data de nascimento:</label>
-        <input type="date" id="datanascimento" required>
-        <br><br>
+        <h1>Ficha Pet</h1>
+        <h2>Dono</h2>
+        <label for="nomedono">Nome:</label>
+        <input type="text" id="nomedono" placeholder="Thomaz Honorato" required checked="checked">
+        <label for="rua">Endereço:</label>
+        <input type="text" id="rua" placeholder="Avenida Brasil" required>
+        <label for="ruaNumero">Número:</label>
+        <input type="number" id="ruaNumero" placeholder="666" required>
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" required>
         <label for="email">E-mail:</label>
         <input type="email" id="email" placeholder="email@email.com" required>
-        <label for="tel">Telefone:</label>
-        <input type="tel" id="tel" placeholder="(99) 99999-9999" required>
-        <label>Sexo:</label>
-        <input type="radio" name="genero" id="sex1" value="F" checked="checked">
-        <label for="sex1">Feminino</label>
-        <input type="radio" name="genero" id="sex2" value="M" checked="checked">
-        <label for="sex2">Masculino</label>
-        </fieldset>
-        <fieldset><legend>Experiência</legend>
-
-        </fieldset>
+        <h2>Pet</h2>
+        <label for="nomepet">Nome:</label>
+        <input type="text" id="nomepet" placeholder="Nina" required>
+        <label for="petidade">Idade:</label>
+        <input type="number" id="petidade" placeholder="10" required>
+        <label for="especie">Espécie:</label>
+        <select name="especie" id="especie">
+            <option value="">Selecione ...</option>
+            <option value="cao">Cão</option>
+            <option value="coelho">Coelho</option>
+            <option value="gato">Gato</option>
+            <option value="hamster">Hamster</option>
+            <option value="passaro">Pássaro</option>
+            <option value="peixe">Peixe</option>
+            <option value="pindia">Porquinho da India</option>
+        </select>
+        <label for="raca">Raça</label>
+        <input type="text" id="raca" placeholder="Labrador" required>
     </form>
 </body>
 </html>
