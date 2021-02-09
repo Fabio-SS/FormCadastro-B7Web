@@ -5,11 +5,37 @@
 header{
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: #b1b1b1;
     padding-top: 10px;
     padding-bottom: 10px;
     font-variant: small-caps;
     font-size: 15px;
     font-weight: bold;
+}
+body .form{
+    border-radius: 5px;
+    border: solid #b1b1b1;
+    padding: 5px;
+    margin: 10px;
+}
+body .content{
+    display: flex;
+}
+body .coluna1{
+    flex-direction: column;
+    background-color: brown;
+    width: 50%;
+}
+body .coluna2{
+    flex-direction: column;
+    background-color: burlywood;
+    width: 50%;
+}
+body .coluna3{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }

@@ -10,8 +10,42 @@
   <header><h1>Pet Lovers</h1></header>
   <div class="form">
     <form action="recebedados.php" method="POST">
-      <div class="coluna1"></div>
-      <div class="coluna2"></div>
+      <div class="content">
+        <div class="coluna1">
+          <label for="NomeDono">Nome</label>
+          <input type="text" placeholder="Thomaz Honorato" required checked="checked">
+          <br>
+          <label for="nomedono">Endereço</label>
+          <input type="text" placeholder="Av Brasil, 666" required checked="checked">
+          <br>
+          <label for="tel">Telefone</label>
+          <input type="tel" placeholder="(xx)99999-9999" required checked="checked">
+          <br>
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="email@email.com" required>
+        </div>
+        <div class="coluna2">
+          <label for="nomepet">Nome</label>
+          <input type="text" placeholder="Nina" required>
+          <br>
+          <label for="petidade">Idade</label>
+          <input type="number" required>
+          <br>
+          <label for="especie">Espécie</label>
+          <input type="radio" required checked="checked">
+          <label for="cao">Cão</label>
+          <input type="radio" required>
+          <label for="gato">Gato</label>
+          <br>
+          <label for="raca">Raça</label>
+          <input type="text" placeholder="Labrador" required>
+          <br>
+        </div>
+    </div>
+    <div class="coluna3">
+      <label for="obs">Observação</label>
+      <textarea name="observacao" id="" cols="30" rows="10" placeholder="Digite sua observação"></textarea>
+    </div>
     </form>
   </div>
 </body>
