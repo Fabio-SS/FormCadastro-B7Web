@@ -34,8 +34,16 @@ body .coluna2{
     width: 50%;
 }
 body .coluna3{
-  margin-top: 5px;
+  background-color: khaki;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  margin-top: 5px;
   padding: 10px;
+}
+.coluna3 textarea{
+  width: 20%;
+  align-self: center;
+}
+.coluna3 label{
+  align-self: center;
 }
