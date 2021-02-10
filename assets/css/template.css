@@ -24,11 +24,15 @@ body .content{
     display: flex;
 }
 body .bdono{
+  display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: brown;
   width: 50%;
 }
 body .bpet{
+  display: flex;
+  align-items: center;
   flex-direction: column;
   background-color: burlywood;
   width: 50%;
@@ -79,9 +83,4 @@ body .campo_obs{
   height: 22px;
   align-self: center;
   margin-top: 5px;
-}
-body .tb1{
-  display: flex;
-  justify-content: center;
-  padding: 5px;
 }

@@ -12,12 +12,6 @@
     <form action="recebedados.php" method="POST">
       <div class="content">
         <div class="bdono">
-          <table class="tb1">
-            <tr>
-                <th><label for="NomeDono">Nome</label></th>
-                <td><input type="text" required placeholder="Seu Nome"></td>
-            </tr>
-          </table>
           <!--
           <label for="NomeDono">Nome</label>
           <input type="text" placeholder="Thomaz Honorato" required checked="checked">
@@ -29,9 +23,29 @@
           <input type="tel" placeholder="(xx)99999-9999" required checked="checked">
           <br>
           <label for="email">E-mail</label>
-          <input type="email" placeholder="email@email.com" required>-->
+          <input type="email" placeholder="email@email.com" required>
+          -->
+          <table>
+            <tr>
+              <td><label for="NomeDono">Nome</label></td>
+              <td><input type="text" placeholder="Thomaz Honorato" required checked="checked"></td>
+            </tr>
+            <tr>
+              <td><label for="nomedono">Endereço</label></td>
+              <td><input type="text" placeholder="Av Brasil, 666" required checked="checked"></td>
+            </tr>
+            <tr>
+              <td><label for="tel">Telefone</label></td>
+              <td><input type="tel" placeholder="(xx)99999-9999" required checked="checked"></td>
+            </tr>
+            <tr>
+              <td><label for="email">E-mail</label></td>
+              <td><input type="email" placeholder="email@email.com" required></td>
+            </tr>
+          </table>
         </div>
         <div class="bpet">
+          <!--
           <label for="nomepet">Nome</label>
           <input type="text" placeholder="Nina" required>
           <br>
@@ -46,8 +60,30 @@
             <option value="Passaro">Pássaro</option>
           </select>
           <label for="raca">Raça</label>
-          <input type="text" placeholder="Labrador" required>
-          <!--
+          <input type="text" placeholder="Labrador" required>-->
+          <table>
+            <tr>
+              <td> <label for="nomepet">Nome</label></td>
+              <td><input type="text" placeholder="Nina" required></td>
+            </tr>
+            <tr>
+              <td><label for="petidade">Idade</label></td>
+              <td><input type="number" required></td>
+            </tr>
+            <tr>
+              <td><label for="especie">Espécie</label></td>
+              <td> <select required>
+                <option value="Selecione">Selecione</option>
+                <option value="Cao">Cão</option>
+                <option value="Gato">Gato</option>
+                <option value="Passaro">Pássaro</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td><label for="raca">Raça</label></td>
+              <td><input type="text" placeholder="Labrador" required></td>
+            </tr>
+          </table><!--
           <input type="radio" required checked="checked">
           <label for="cao">Cão</label>
           <input type="radio" required>
