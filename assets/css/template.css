@@ -80,8 +80,14 @@ body .campo_obs{
   align-self: center;
   margin-top: 5px;
 }
-body .tb1{
+body .tabela_dono{
   display: flex;
   justify-content: center;
   padding: 5px;
+}
+.tabela_dono label{
+  text-transform: lowercase;
+  font-variant: small-caps;
+  display: block;
+  text-align: center;
 }
