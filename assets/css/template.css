@@ -84,3 +84,8 @@ body .campo_obs{
   align-self: center;
   margin-top: 5px;
 }
+body .tb1{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
