@@ -28,10 +28,20 @@ body .bdono{
   background-color: brown;
   width: 50%;
 }
+.bdono h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 body .bpet{
   flex-direction: column;
   background-color: burlywood;
   width: 50%;
+}
+.bpet h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 body .campo_obs{
   background-color: khaki;
@@ -89,5 +99,5 @@ body .tabela{
   text-transform: lowercase;
   font-variant: small-caps;
   display: block;
-  text-align: center;
+  text-align: left;
 }
