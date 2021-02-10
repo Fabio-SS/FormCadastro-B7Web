@@ -75,8 +75,8 @@ body .campo_obs{
 .campo_obs input{
   display: flex;
   justify-content: center;
-  width: 65px;
-  height: 22px;
+  width: 72px;
+  height: 25px;
   align-self: center;
   margin-top: 5px;
 }
