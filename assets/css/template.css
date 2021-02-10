@@ -61,7 +61,7 @@ body .campo_obs{
   padding: 3px;
 }
 .bpet select{
-  width: 200px;
+  width: 195px;
   height: 25px;
   border-radius: 5px;
   padding: 5px;
@@ -80,12 +80,12 @@ body .campo_obs{
   align-self: center;
   margin-top: 5px;
 }
-body .tabela_dono{
+body .tabela{
   display: flex;
   justify-content: center;
   padding: 5px;
 }
-.tabela_dono label{
+.tabela label{
   text-transform: lowercase;
   font-variant: small-caps;
   display: block;

@@ -12,7 +12,7 @@
     <form action="recebedados.php" method="POST">
       <div class="content">
         <div class="bdono">
-          <table class="tabela_dono">
+          <table class="tabela">
             <tr>
                 <th><label for="NomeDono">Nome</label></th>
                 <td><input type="text" required placeholder="Seu Nome"></td>
@@ -44,6 +44,32 @@
           <input type="email" placeholder="email@email.com" required>-->
         </div>
         <div class="bpet">
+          <table class="tabela">
+            <tr>
+                <th><label for="nomepet">Nome</label></th>
+                <td><input type="text" placeholder="Nina" required></td>
+            </tr>
+            <tr>
+                <th><label for="petidade">Idade</label></th>
+                <td><input type="number" required></td>
+            </tr>
+            <tr>
+                <th><label for="especie">Espécie</label></th>
+                <td>
+                  <select required>
+                  <option value="Selecione">Selecione</option>
+                  <option value="Cao">Cão</option>
+                  <option value="Gato">Gato</option>
+                  <option value="Passaro">Pássaro</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+                <th><label for="raca">Raça</label></th>
+                <td><input type="text" placeholder="Labrador" required></td>
+            </tr>
+          </table>
+          <!--
           <label for="nomepet">Nome</label>
           <input type="text" placeholder="Nina" required>
           <br>
