@@ -24,14 +24,14 @@ body .content{
     display: flex;
 }
 body .bdono{
-    flex-direction: column;
-    background-color: brown;
-    width: 50%;
+  flex-direction: column;
+  background-color: brown;
+  width: 50%;
 }
 body .bpet{
-    flex-direction: column;
-    background-color: burlywood;
-    width: 50%;
+  flex-direction: column;
+  background-color: burlywood;
+  width: 50%;
 }
 body .campo_obs{
   background-color: khaki;
@@ -46,4 +46,29 @@ body .campo_obs{
 }
 .campo_obs label{
   align-self: center;
+}
+/* Tratando os Inputs, Select e Textarea */
+.bdono input{
+  width: 185px;
+  height: 18px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.bpet input{
+  width: 185px;
+  height: 18px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.bpet select{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.campo_obs textarea{
+  width: 300px;
+  height: 140px;
+  border-radius: 5px;
+  padding: 5px;
 }
