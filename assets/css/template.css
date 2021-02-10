@@ -13,10 +13,11 @@ header{
     font-variant: small-caps;
     font-size: 15px;
     font-weight: bold;
+    color: #FFE261;
 }
 body .form{
     border-radius: 5px;
-    border: solid #b1b1b1;
+    border: solid #6236FF;
     padding: 5px;
     margin: 10px;
 }
@@ -27,18 +28,18 @@ body .bdono{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: brown;
+  background-color: #fff;
   width: 50%;
 }
 body .bpet{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: burlywood;
+  background-color: #fff;
   width: 50%;
 }
 body .campo_obs{
-  background-color: khaki;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   margin-top: 5px;
