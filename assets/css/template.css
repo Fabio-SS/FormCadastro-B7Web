@@ -25,21 +25,26 @@ body .content{
     display: flex;
 }
 body .bdono{
-  display: flex;
-  align-items: center;
   flex-direction: column;
-  background-color: #fff;
   width: 50%;
+}
+.bdono h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-variant: small-caps;
 }
 body .bpet{
-  display: flex;
-  align-items: center;
   flex-direction: column;
-  background-color: #fff;
   width: 50%;
 }
+.bpet h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-variant: small-caps;
+}
 body .campo_obs{
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   margin-top: 5px;
@@ -66,7 +71,7 @@ body .campo_obs{
   padding: 3px;
 }
 .bpet select{
-  width: 200px;
+  width: 195px;
   height: 25px;
   border-radius: 5px;
   padding: 5px;
@@ -80,8 +85,19 @@ body .campo_obs{
 .campo_obs input{
   display: flex;
   justify-content: center;
-  width: 65px;
-  height: 22px;
+  width: 72px;
+  height: 25px;
   align-self: center;
   margin-top: 5px;
+}
+body .tabela{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.tabela label{
+  text-transform: lowercase;
+  font-variant: small-caps;
+  display: block;
+  text-align: left;
 }
