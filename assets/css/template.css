@@ -7,17 +7,17 @@ header{
     justify-content: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #4619E5;
+    background-color: #929191;
     padding-top: 10px;
     padding-bottom: 10px;
     font-variant: small-caps;
     font-size: 15px;
     font-weight: bold;
-    color: #FFE261;
+    color: #000;
 }
 body .form{
     border-radius: 5px;
-    border: solid #6236FF;
+    border: solid #929191;
     padding: 5px;
     margin: 10px;
 }
